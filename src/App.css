@@ -1,0 +1,148 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container img {
+  vertical-align: middle;
+}
+
+.container input[type="text"] {
+  width: 400px;
+  height: 30px;
+  margin: 0 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.container input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.list p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.list-img {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.main-card {
+  display: flex;
+  width: 1286px;
+  margin: 0 auto;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 76px;
+  color: #181e4b;
+}
+
+.blue-text {
+  color: #4475f2;
+}
+
+.section-text {
+  width: 477px;
+  color: #5e6282;
+  font-size: 16px;
+}
+
+.section-btn {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.section-btn button:first-child {
+  background-color: #4475f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border: #4475f2;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.company-logos {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 125px;
+}
+
+.img-3 {
+  margin-top: 140px;
+}
+
+.container.nature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nature-text {
+  margin-top: 0; 
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.nature-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.nature-images {
+  display: flex;
+  width: 530px;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.nature-images img{
+    width: 400px;
+    height: 400px;
+}
